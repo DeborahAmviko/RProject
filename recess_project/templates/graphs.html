@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<html>
+  <head>
+      <link rel="stylesheet" href="{% static 'css/account.css' %}">
+      <link rel="stylesheet" href="{% static 'css/table.css' %}">
+  </head>
+   <body class="border">
+     <div ><a href="{% url 'home' %}"><button class="button1">HOME</button></a</div>
+<!--The table with graphs-->     
+<table>
+  <tr>
+    <td><strong>GRAPHS</strong></td>
+    <th><a href="{% url 'home' %}">PREDICTION</a></th>
+  </tr>
+  <tr>
+    <td><a href="{% url 'home' %}">BAR GRAPH</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'home' %}">PIE CHART</a></td>
+  </tr>
+  <tr>
+    <td><a href="{% url 'home' %}">LINE GRAPH</a></td>
+  </tr>
+  </table>
+{% endblock %}
+   </body>
+</html>

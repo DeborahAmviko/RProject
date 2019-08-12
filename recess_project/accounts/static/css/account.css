@@ -1,0 +1,72 @@
+#drug{
+width:80%;
+font-size:25px;
+Text-align:center;
+float:left;
+color:green;
+background-color: rgb(172, 228, 172);
+}
+
+#log{
+    Text-align:right;
+    Width:20%;
+    float:right;
+}
+
+  body{
+      background-color:skyblue;
+  }
+
+  #file{
+    color:rgb(15, 64, 214);
+    font-family: "Times New Roman";
+  }
+  
+  .form-inline { 
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  /* Add some margins for each label */
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+  
+  /* Style the input fields */
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style the submit button */
+  .form-inline button {
+    padding: 8px 20px;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    color: white;
+  }
+  
+.form-inline button:hover {
+    background-color: royalblue;
+  }
+.button2{
+  background-color: rgb(70, 168, 70);
+  color: white; 
+  border: 1px solid  rgb(70, 168, 70);
+  float: right;
+  padding: 10px;
+  font-family: "Times New Roman";
+  font-size: 18px
+}
+.button2:hover {
+  background-color: green;
+  color: white;
+}
+
